@@ -1,0 +1,20 @@
+
+body { 
+background-color: lightyellow; 
+} 
+.b-color{
+color: blue;
+}
+.r-color{
+color: red;
+}
+ol,ul{
+border-style: dotted;
+}
+ol,ul{
+color: grey;
+}
+
+#index-h1 {
+color: blue;
+}
