@@ -1,0 +1,50 @@
+<DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<title> Partner Lab. Lab 2</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<header>
+  <h1>Hello Web Surfers!</h1>
+</header>
+<body>
+    <form id="customForm">
+      <div class="form-group">
+        <label for="nameInput">Your Name:</label>
+        <input type="text" id="nameInput" placeholder="Name..." autocomplete="off">
+      </div>
+      <div class="form-group">
+        <label for="messageInput">Brief message:</label>
+        <textarea id="messageInput" placeholder="Your message..." rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="bgColor">Background color:</label>
+        <select id="bgColor">
+          <option value="#fef3f2">Light Orange</option>
+          <option value="#f0fdfa">Light Green</option>
+          <option value="#f3e8ff">Lavender</option>
+          <option value="#fefce8">Light Yellow</option>
+          <option value="#f0f9ff">Light Blue</option>
+        </br></select>
+      </div>
+      <button type="submit">Apply Changes</button>
+    </form>
+    <div id="greeting" class="default-text">Fill in the info and click Apply Changes</div>
+    <p id="message" class="default-text">Message will appear here.</p>
+  </div>
+  <div id="editDialog" style="display:none;">
+  <input type="text" id="editInput">
+  <button id="okBtn">OK</button>
+  <button id="cancelBtn">Cancel</button>
+  <div class="container">
+  <input type="text" id="todoInput" placeholder="To Do List">
+  <button id="addToDoBtn">Add List</button>
+  <ul id="todoInput"></ul>
+  <script src="program.js"></script>
+  </body>
+  <footer>
+    <p>Partner Lab 2 - IST 250 - Chad Waters and Melissa Renninger</p>
+  </footer>
+</html>
+
