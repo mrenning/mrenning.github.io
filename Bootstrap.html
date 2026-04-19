@@ -1,1 +1,95 @@
-file:///C:/Users/oghom/Downloads/Extending%20Bootstrap/sign-in.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Course Portal Login</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            padding-top: 60px;
+            padding-bottom: 40px;
+            background-color: #f5f7fa;
+        }
+
+        .form-signin {
+            max-width: 380px;
+            padding: 20px;
+            margin: auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .form-signin h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .brand-logo {
+            width: 80px;
+            display: block;
+            margin: 0 auto 15px auto;
+        }
+
+        .btn-primary {
+            background-color: #0055a5;
+            border-color: #0055a5;
+        }
+
+        .btn-primary:hover {
+            background-color: #003f7d;
+        }
+
+        .extra-links {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .extra-links a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<main class="form-signin">
+
+    <img src="https://thumbs.dreamstime.com/b/oh-logo-monogram-emblem-style-crown-shape-design-template-oh-logo-monogram-emblem-style-crown-shape-design-template-190901897.jpg" alt="Portal Logo" class="brand-logo">
+
+    <h1>Sign in please!</h1>
+    <p class="text-center text-muted">Sign in to access your course dashboard</p>
+
+    <form>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+            <label for="emailInput">Email address</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+            <label for="passwordInput">Password</label>
+        </div>
+
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign In</button>
+
+        <div class="extra-links mt-3">
+            <a href="#">Forgot your password?</a><br>
+            <a href="#">Create a new account</a>
+        </div>
+    </form>
+
+</main>
+
+</body>
+</html>
+
